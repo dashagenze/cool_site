@@ -1,0 +1,14 @@
+body {
+  background-image: url('images_kp/purple_back.png');
+  background-size: cover;
+  background-color: #5D1998;
+}
+
+.test {
+  color: blueviolet;
+  font-family: Mantra;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
