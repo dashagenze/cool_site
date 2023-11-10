@@ -1,6 +1,8 @@
-let button = document.getElementById('menu_button');
-button.onclick = function() {
-  sayThanks(); // содержимое атрибута
-};
+const buttonImgPage = document.getElementById('imgPage');
 
-button.addEventListener(click,() => alert('Спасибо!'), [options]);
+
+buttonImgPage.onclick =  
+function OpenImgPage(){
+  window.location.href="kind_pics/index_kp.html";
+}
+

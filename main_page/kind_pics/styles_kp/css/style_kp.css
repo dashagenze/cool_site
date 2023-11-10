@@ -1,14 +1,52 @@
+body, h1,h2, h3, h4, p, a {
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-image: url('images_kp/purple_back.png');
   background-size: cover;
   background-color: #5D1998;
 }
 
-.test {
-  color: blueviolet;
-  font-family: Mantra;
-  font-size: 80px;
+.descContainer {
+  background-color: red;
+  margin-top: 200px;
+  margin-left: 170px;
+
+
+
+}
+
+.descPar1 {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 40px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  width: 330px;
+  height: 104px;
+
+  margin-bottom: 51px;
+}
+
+.descPar2 {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.spin {
+  background-color: #80CC03;
 }
