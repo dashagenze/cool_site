@@ -6,3 +6,11 @@ function OpenImgPage(){
   window.location.href="kind_pics/index_kp.html";
 }
 
+const buttonPinterest = document.getElementById('pinterestLink');
+
+
+buttonPinterest.onclick =  
+function OpenImgPage(){
+  window.location.href="https://ru.pinterest.com/";
+}
+
