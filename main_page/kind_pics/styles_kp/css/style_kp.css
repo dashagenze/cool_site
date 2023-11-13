@@ -11,8 +11,13 @@ body, h1,h2, h3, h4, p, a {
 
 body {
   background-image: url('images_kp/purple_back.png');
-  background-size: cover;
+  background-size: contain;
   background-color: #5D1998;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
 }
 
 .descContainer {
@@ -20,6 +25,10 @@ body {
   margin-top: 200px;
   margin-left: 170px;
 
+}
+
+.imgContainer{
+  display: none;
 }
 
 .descPar1 {
@@ -62,10 +71,14 @@ body {
   cursor: pointer;
 }
 
-.carousel {
+
+.randomPicContainer {
   position: relative;
   width: 100%;
   overflow: hidden;
+
+  margin-left: 270px;
+  margin-top: 127px;
 }
  
 .carousel-inner {

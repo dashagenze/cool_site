@@ -10,7 +10,7 @@ const buttonPinterest = document.getElementById('pinterestLink');
 
 
 buttonPinterest.onclick =  
-function OpenImgPage(){
+function OpenPinterestPage(){
   window.location.href="https://ru.pinterest.com/";
 }
 
