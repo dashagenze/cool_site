@@ -16,11 +16,9 @@ body {
 }
 
 .descContainer {
-  background-color: red;
+  background-color: ;
   margin-top: 200px;
   margin-left: 170px;
-
-
 
 }
 
@@ -44,9 +42,46 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  width: 377px;
+  height: 208px;
 
 }
 
 .spin {
+  margin-left: 87px;
+  width: 150px;
+  height: 100px;
   background-color: #80CC03;
+  border-radius: 60px;
+
+  font-size: 40px;
+
+  opacity: 1;
+  transition: all 1s ease;
+
+  cursor: pointer;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+ 
+.carousel-inner {
+  display: flex;
+  width: 300%;
+  transition: transform 0.5s;
+  background-color: red;
+}
+ 
+.carousel-item {
+  flex: 1;
+  text-align: center;
+}
+ 
+.carousel-item img {
+  width: 50%;
+  max-height: 400px;
+  object-fit: contain;
 }
