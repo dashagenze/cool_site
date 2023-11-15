@@ -25,20 +25,28 @@ let imgArray = [img1, img2, img3, img4, img5, img6, img8, img9, img10, img11, im
 const buttonSpin = document.getElementById('btnSpin');
 
 
-buttonSpin.onclick = function test() {
-	alert('working');
-}
+buttonSpin.onclick = RandomPic(imgArray);
 
-
-
-
-RandomPic(imgArray);
 
 function RandomPic(array) {
-let item = array[index];
-alert('item');
-}   let item = array[index];
-
-function RandomPic() {
-alert('item');
+	let item = array[index];
+	for item in array:
+		alert(item);
+	return item
 }
+
+
+
+
+
+
+
+// let slider = document.createElement("div");
+// slider.className = "slider";
+// document.body.appendChild(slider);
+
+// for (i = 0; i < files.length; i++) {
+//     let file = files[i];
+
+
+
