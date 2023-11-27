@@ -1,16 +1,22 @@
 const buttonImgPage = document.getElementById('imgPage');
 
-
 buttonImgPage.onclick =  
 function OpenImgPage(){
   window.location.href="kind_pics/index_kp.html";
 }
 
-const buttonPinterest = document.getElementById('pinterestLink');
 
+const buttonPinterest = document.getElementById('pinterestLink');
 
 buttonPinterest.onclick =  
 function OpenPinterestPage(){
   window.location.href="https://ru.pinterest.com/";
 }
 
+
+const buttonDiary = document.getElementById('diaryPage');
+
+buttonDiary.onclick =  
+function OpenImgPage(){
+  window.location.href="diary/index_d.html";
+}
