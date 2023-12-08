@@ -16,14 +16,27 @@ body {
 }
 
 .main{
-  background-image: styles/images/purple_back.png;
+  background-image: url("images/purple_back.png");
   background-size: cover;
 }
 
+/*.animationTry {*/
+/*  background-color: aliceblue;*/
+/*  transition: background-color 1s ease;*/
+/*}*/
+
+/*.animationTry:hover {*/
+/*  background-color: black;*/
+/*}*/
+
+.animationTry {
+  transition: src 1s ease;
+}
+
+.animationTry:hover {
+}
+
 .cat1 {
-  width: 90x;
-  height: 98px;
-  transform: rotate(-17.935deg);
   position: absolute;
   z-index: 30;
 
@@ -35,7 +48,7 @@ body {
   position: absolute;
   z-index: 30;
 
-  margin-top: -80px;
+  margin-top: -75px;
   margin-left: 200px;
 }
 
@@ -100,8 +113,8 @@ body {
 
 
 .button_container {
-  margin-top: 0px;
-  margin-left: 0px;
+  margin-top: 0;
+  margin-left: 0;
 
   padding-top: 62px;
   padding-left: 257px;

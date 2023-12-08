@@ -19,7 +19,7 @@ let imgs = [
 
 	image = document.getElementById('image'),
 	buttonSpin = document.getElementById('btnSpin');
-		
+
 	buttonSpin.onclick = function(){
 		image.src = imgs[Math.floor(Math.random()*imgs.length)];
 	}
